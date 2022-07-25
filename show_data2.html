@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+  </head>
+  <body>
+    <h1>Potential Churners</h1>
+
+ 
+{{ data|safe }}
+
+
+<br>
+
+  <form action="/churn_list" target="_blank">
+        <input type="submit" value="List of Churners" />
+    </form>
+    </body>
+</html>
